@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="46">
+ <editorsettings>
+  <export target="../../mission3.js" format="js"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Metal Slug - Mission 1 - backdrop" tilewidth="64" tileheight="64" tilecount="1350" columns="50" objectalignment="topleft">
+  <image source="pictures/Neo Geo NGCD - Metal Slug - Mission 1 - backdrop.png" width="3200" height="1737"/>
+ </tileset>
+ <tileset firstgid="1351" name="Metal Slug - Mission 1- platforme" tilewidth="64" tileheight="64" tilecount="33" columns="11" objectalignment="topleft">
+  <image source="pictures/Neo Geo NGCD - Metal Slug - Mission 1- platforme.png" width="711" height="229"/>
+ </tileset>
+ <tileset firstgid="1384" name="mc_spritesheet" tilewidth="64" tileheight="64" tilecount="11" columns="11" objectalignment="topleft">
+  <image source="pictures/mc_spritesheet.png" width="704" height="64"/>
+ </tileset>
+ <tileset firstgid="1395" name="powerup_spritesheet" tilewidth="64" tileheight="64" tilecount="3" columns="3" objectalignment="topleft">
+  <image source="pictures/powerup_spritesheet.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="1398" name="bullet_spritesheet" tilewidth="64" tileheight="64" tilecount="13" columns="13" objectalignment="topleft">
+  <image source="pictures/bullet_spritesheet.png" width="832" height="64"/>
+ </tileset>
+ <tileset firstgid="1411" name="rr_spritesheet" tilewidth="64" tileheight="64" tilecount="5" columns="5" objectalignment="topleft">
+  <image source="pictures/rr_spritesheet.png" width="320" height="64"/>
+ </tileset>
+ <tileset firstgid="1416" name="pr_spritesheet" tilewidth="64" tileheight="64" tilecount="9" columns="9" objectalignment="topleft">
+  <image source="pictures/pr_spritesheet.png" width="576" height="64"/>
+ </tileset>
+ <tileset firstgid="1425" name="misc_spritesheet" tilewidth="64" tileheight="64" tilecount="7" columns="7" objectalignment="topleft">
+  <image source="pictures/misc_spritesheet.png" width="448" height="64"/>
+ </tileset>
+ <layer id="1" name="backgrounds" width="20" height="10">
+  <data encoding="csv">
+80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,
+130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,
+180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,
+230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,
+280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,
+330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,
+380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,
+430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,
+480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,
+530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549
+</data>
+ </layer>
+ <objectgroup id="6" name="powerups">
+  <properties>
+   <property name="class" value="powerups"/>
+  </properties>
+  <object id="26" name="heavyMG" gid="1395" x="600" y="530" width="30" height="30"/>
+  <object id="27" name="flameShot" gid="1396" x="600" y="530" width="30" height="30"/>
+  <object id="28" name="rLauncher" gid="1397" x="600" y="530" width="30" height="30"/>
+  <object id="30" name="pistol" gid="1398" x="1115.75" y="13.5832" width="10" height="10"/>
+  <object id="31" name="heavyMG0" gid="1399" x="1107.83" y="31.4165" width="10" height="25"/>
+  <object id="32" name="heavyMG180" gid="1401" x="1124.33" y="31.4165" width="10" height="25"/>
+  <object id="33" name="heavyMG90" gid="1400" x="1108.33" y="64.9165" width="25" height="10"/>
+  <object id="34" name="heavyMG270" gid="1402" x="1108.83" y="84.4165" width="25" height="10"/>
+  <object id="35" name="flameShot0" gid="1403" x="1144.33" y="12.4165" width="55" height="250"/>
+  <object id="36" name="flameShot180" gid="1405" x="1205" y="14.0832" width="55" height="250"/>
+  <object id="37" name="flameShot90" gid="1404" x="1024" y="274.583" width="250" height="55"/>
+  <object id="38" name="flameShot270" gid="1406" x="1022" y="330.583" width="250" height="55"/>
+  <object id="39" name="rLauncher0" gid="1407" x="1080.83" y="106.917" width="20" height="60"/>
+  <object id="40" name="rLauncher180" gid="1409" x="1110.33" y="108.417" width="20" height="60"/>
+  <object id="41" name="rLauncher90" gid="1408" x="1076.83" y="178.917" width="60" height="20"/>
+  <object id="42" name="rLauncher270" gid="1410" x="1073.33" y="210.417" width="60" height="20"/>
+  <object id="44" name="rebelBomb" gid="1424" x="1053.5" y="17.5" width="50" height="80"/>
+ </objectgroup>
+ <objectgroup id="8" name="pows">
+  <properties>
+   <property name="class" value="property"/>
+  </properties>
+  <object id="45" name="pow" gid="1427" x="584" y="511" width="64" height="64"/>
+ </objectgroup>
+ <layer id="5" name="rebels" width="20" height="10">
+  <properties>
+   <property name="class" value="rebels"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1416,1417,1418,1419,1420,1421,1422,1423,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="marco" width="20" height="10">
+  <properties>
+   <property name="class" value="marco"/>
+  </properties>
+  <data encoding="csv">
+1384,1385,1386,1391,1392,1393,1387,1388,1389,1390,1394,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="platforms">
+  <properties>
+   <property name="class" value="platforms"/>
+  </properties>
+  <object id="1" name="p1" gid="1379" x="0" y="576" width="128" height="128"/>
+  <object id="2" name="p2" gid="1379" x="128" y="576" width="128" height="128"/>
+  <object id="3" name="p3" gid="1379" x="256" y="576" width="128" height="128"/>
+  <object id="4" name="p4" gid="1379" x="384" y="576" width="128" height="128"/>
+  <object id="5" name="p5" gid="1379" x="512" y="576" width="128" height="128"/>
+  <object id="6" name="p6" gid="1379" x="640" y="576" width="128" height="128"/>
+  <object id="7" name="p7" gid="1379" x="768" y="576" width="128" height="128"/>
+  <object id="8" name="p8" gid="1379" x="896" y="576" width="128" height="128"/>
+  <object id="9" name="p9" gid="1379" x="1024" y="576" width="128" height="128"/>
+  <object id="10" name="p10" gid="1379" x="1152" y="576" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="3" name="decorations">
+  <properties>
+   <property name="class" value="decorations"/>
+  </properties>
+  <object id="11" name="d1" gid="1368" x="0" y="512" width="128" height="64"/>
+  <object id="12" name="d2" gid="1368" x="128" y="512" width="128" height="64"/>
+  <object id="13" name="d3" gid="1368" x="256" y="512" width="128" height="64"/>
+  <object id="14" name="d4" gid="1368" x="384" y="512" width="128" height="64"/>
+  <object id="15" name="d5" gid="1368" x="512" y="512" width="128" height="64"/>
+  <object id="16" name="d6" gid="1368" x="640" y="512" width="128" height="64"/>
+  <object id="17" name="d7" gid="1368" x="768" y="512" width="128" height="64"/>
+  <object id="18" name="d8" gid="1368" x="896" y="512" width="128" height="64"/>
+  <object id="19" name="d9" gid="1368" x="1024" y="512" width="128" height="64"/>
+  <object id="20" name="d10" gid="1368" x="1152" y="512" width="128" height="64"/>
+ </objectgroup>
+ <objectgroup id="7" name="bullets">
+  <properties>
+   <property name="class" value="bullets"/>
+  </properties>
+ </objectgroup>
+</map>
