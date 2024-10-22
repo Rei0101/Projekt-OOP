@@ -2,4 +2,4 @@
 
 Na repozitoriju je i dokumentacija.
 
-Note: OTTER nisam ja napravio već je ta datoteka u biti framework.
+Note: OTTER nisam ja napravio, već datoteke u "otter" folderu čine framework.
