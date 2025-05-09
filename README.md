@@ -2,9 +2,9 @@
 
 This project from Object-Oriented Programming (abbreviated OOP) will be based on concepts from the first game in the Metal Slug series (the full name of the first game is Metal Slug: Super Vehicle-001). Like the original game, the project game will belong to the genres of 2D platformer and "Run 'n Gun".
 
-Notes:
-- The repo contains a more detailed project documentation in the .docx format (class hierarchy diagram, what made the final cut, what didn't etc.).
-- This project was made in the OTTER framework.
+>**Notes:**
+>- The repo contains a more detailed project documentation in the .docx format (class hierarchy diagram, what made the final cut, what didn't etc.).
+>- This project was made in the OTTER framework.
 
 ## Project introduction
 
